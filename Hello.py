@@ -1,2 +1,3 @@
-import tkinter
-tkinter._test()
+ import tkinter
+
+ tkinter._test()
