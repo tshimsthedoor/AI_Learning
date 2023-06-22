@@ -20,6 +20,6 @@ print("Mean =", data_scaled.mean(axis=0))
 print("Std deviation =", data_scaled.std(axis=0))
 
 # Normalize data
-data_normalized_l1 = preprocessing.normalize(input_data, norm='l1')
-data_normalized_l2 = preprocessing.normalize(input_data, norm='l2')
+data_normalized_l1 = preprocessing.normalize(input_data, norm="l1")
+data_normalized_l2 = preprocessing.normalize(input_data, norm="l2")
 print("\nL1 normalized data:\n", data_normalized_l1)
